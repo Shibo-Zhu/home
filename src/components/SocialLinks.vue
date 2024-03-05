@@ -22,13 +22,20 @@
       <img
         class="wechat-image"
         :src="socialLinks.find(item => item.name === 'WeChat').url"
-        :style="{ width: weChatPopupWidth, height: weChatPopupHeight, border: `0px solid ${weChatPopupBorderColor}` }"
+        :style="{ width: weChatPopupWidth, height: weChatPopupHeight }"
       />
-      <button class="close-button" @click="closePopup">&#10006;</button>
+      <button class="close-button" @click="closePopup">
+        <Icon size="24">
+          <TimesCircleRegular />
+        </Icon>
+      </button>
   </div>
 </template>
 
 <script setup>
+import { Icon } from "@vicons/utils";
+import { TimesCircleRegular} from "@vicons/fa"; //
+
 import socialLinks from "@/assets/socialLinks.json";
 
 // 社交链接提示
@@ -52,6 +59,7 @@ const handleClick = (item) => {
 const closePopup = () => {
   showWeChatPopup.value = false;
 };
+
 </script>
 
 <style lang="scss" scoped>

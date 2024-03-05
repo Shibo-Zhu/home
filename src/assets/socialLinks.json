@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Github",
+    "icon": "/images/icon/github.png",
+    "tip": "去 Github 看看",
+    "url": "https://github.com/Shibo-Zhu"
+  },
+  {
+    "name": "BiliBili",
+    "icon": "/images/icon/bilibili.png",
+    "tip": "(゜-゜)つロ 干杯 ~",
+    "url": "https://space.bilibili.com/695428368"
+  },
+  {
+    "name": "QQ",
+    "icon": "/images/icon/qq.png",
+    "tip": "有什么事吗",
+    "url": "https://res.abeim.cn/api/qq/?qq=3499129952"
+  },
+  {
+    "name": "WeChat",
+    "icon": "/images/icon/wechat.png",
+    "tip": "扫码添加好友~",
+    "url": "/images/icon/wx.png"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "来封 Email ~",
+    "url": "3499129952@qq.com"
+  }
+]
+

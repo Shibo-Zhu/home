@@ -49,19 +49,9 @@ const projectData = [
     desc: "个人主页，我的个人主页，个人主页源码，主页模板，homepage",
   },
   {
-    name: "LC044",
-    author: "WeChatMsg",
-    desc: "最热门的聊天管理工具",
-  },
-  {
     name: "HTML2PDF",
     author: "Shibo-Zhu",
     desc: "📃 一个基于 Puppeteer 的 HTML 转 PDF 工具 | HTML to PDF | PDF | Puppeteer | HTML2PDF",
-  },
-  {
-    name: "Snavigation",
-    author: "imsyy",
-    desc: "Snavigation 一个简约的起始页 | 支持自定义搜索引擎，自定义快捷方式，自定义壁纸以及数据备份",
   }
 ];
 

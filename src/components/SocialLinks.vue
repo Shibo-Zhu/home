@@ -45,7 +45,6 @@ const socialTip = ref("通过这里联系我吧");
 const showWeChatPopup = ref(false);
 const weChatPopupWidth = ref('190px'); // 适当调整宽度
 const weChatPopupHeight = ref('259px'); // 适当调整高度
-const weChatPopupBorderColor = ref('#000'); // 边框颜色
 
 // 处理点击事件的函数
 const handleClick = (item) => {
@@ -71,8 +70,6 @@ const closePopup = () => {
   transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 10px;
-  // padding: 20px;
-  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .wechat-image {

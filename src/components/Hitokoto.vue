@@ -41,7 +41,7 @@ const openMusicShow = ref(false);
 // 一言数据
 const hitokotoData = reactive({
   text: "这里应该显示一句话",
-  from: "無名",
+  from: "zs",
 });
 
 // 获取一言数据
@@ -58,7 +58,7 @@ const getHitokotoData = async () => {
         fill: "#efefef",
       }),
     });
-    hitokotoData.text = "祝你有个美好的明天，剩下的日子就留着以后祝福~";
+    hitokotoData.text = "May you have auspiciousness and causes of success !";
     hitokotoData.from = "枕石";
   }
 };
